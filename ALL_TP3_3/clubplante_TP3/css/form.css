@@ -1,0 +1,23 @@
+
+form {   
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;   
+}
+
+textarea, input {
+    display: block;
+    margin: 10px 0px;
+    width: 98%;
+}
+
+label {
+    color: coral;
+}
+
+select {
+    display: block;
+    margin: 10px 0px;
+    width: 98%;
+}

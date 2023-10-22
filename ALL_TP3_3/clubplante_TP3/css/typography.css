@@ -1,0 +1,42 @@
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    align-self: center;
+}
+
+h2 {
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+h3, h4, h5 {
+    text-align: left;
+    padding-right: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h3, h5 {
+    color: coral;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+h5 {
+    margin-top: 5px;
+    font-size: medium;
+    font-variant: all-petite-caps;
+    font-style: oblique;
+}
+
+p {
+    margin: 0;
+}

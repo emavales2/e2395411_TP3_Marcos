@@ -1,0 +1,70 @@
+
+-- * * CONSIGNES * * --
+
+Développement
+• Ajouter les tables /champs nécessaires dans votre base de données pour pouvoir gérer les utilisateurs.
+• Les mots de passe doivent être chiffrés.
+• Créer une session sécurisée pour les clients et les administrateurs.
+• Gérer les privilèges d'accès aux pages
+• L'administrateur doit pouvoir ajouter du contenu au site à l'aide de l'interface.
+• Gérer la connexion de l'utilisateur, le journal de bord, avec l'adresse IP, la date, le nom d'utilisateur (si l'utilisateur est connecté, sinon s'inscrire en tant que visiteur) et la page visitée.
+• Le journal de bord doit être accessible à partir du menu de navigation de votre site.
+• Ajouter une nouvelle fonctionnalité de votre choix
+o Envoyer un e-mail
+o Enregistrer au format PDF
+o Téléverser (upload) des images et enregistrer dans la base de données pour les publier sur le site Web,
+o Créer un site Web en deux langues.
+
+
+
+-- * * TO DO * * --
+
+1) DONE : Make sure all the connections to the db and to the project are changed to TP3
+
+----------------
+
+2) DONE : Review Marcos' tables to create user privilege table for my project
+
+        QUESTIONS:
+            1) Not clear on how the privileges would work for my project. Users can be either admins or members. Only admin has the right to see everything, of course, but confused as to how to structure the EERD. Do I need to add "username" into my client table?
+
+----------------
+
+3) DONE : Execute the SQL to make changes
+
+----------------
+
+4) DONE : Differentiatie create user from create client like he did??
+        - What I did was put usernames and privilege on both member and admin tables. Privilege id will dictate what they get access to
+        - I want to have a password field to create an admin account so not just anyone can create one.
+
+----------------
+
+5) Create login page w/cyphered passwords (keep tab so i can keep signing in)
+
+----------------
+
+6) Adjust permissions according to privilege ids
+
+----------------
+
+7) See about the logbook (it was something to do with grabbing some of the info on a var_dump?)
+        - Logbook must be accessible (to whom though?) via the nav menu
+        - Logbook must contain: IP address, date (timestamp?), username if logged in, if not the info must show up as guest, and visited pages during that session
+
+----------------
+
+8) Add new functionality to page (pics or email or diff languages)        
+
+
+
+
+Lucie Admin
+lucie_admin@me.com
+123456
+555 6667788
+Privilege : 3254
+
+testadmin1@me.com
+
+testmember1@me.com

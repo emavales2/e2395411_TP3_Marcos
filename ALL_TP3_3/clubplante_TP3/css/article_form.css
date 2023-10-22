@@ -1,0 +1,28 @@
+
+.article_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 50px;
+    background: #0a2d22;
+    color: white;
+    font-size: smaller;
+    gap: 10px;
+}
+
+.article_form > * {    
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;  
+}
+
+.article_form .pic {
+    max-width: 100%;
+    padding: 0px;
+}
+
+.article_form > section > div {
+    display: flex;
+}

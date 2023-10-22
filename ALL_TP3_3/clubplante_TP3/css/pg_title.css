@@ -1,0 +1,9 @@
+
+.pg_title {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}

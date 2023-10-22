@@ -1,0 +1,12 @@
+
+.item_row {
+    display: flex;
+    gap: 30px;
+    align-self: center;
+}
+
+.item_row + .pic {
+    width: 500px;
+    background: #0a2d22;
+    padding: 15px;
+}

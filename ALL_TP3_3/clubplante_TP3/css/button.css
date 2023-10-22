@@ -1,0 +1,32 @@
+
+.button {
+    margin-top: 20px;
+}
+
+button, .button {   
+    padding: 10px;
+    background: none;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    background: coral;
+}
+
+.button > input {
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.xtra_button {
+    padding-top: 0px;
+}
+
+.xtra_button > .button {
+    margin-top: 0px;
+}

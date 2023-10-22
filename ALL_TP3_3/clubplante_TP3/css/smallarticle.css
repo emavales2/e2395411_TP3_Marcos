@@ -1,0 +1,31 @@
+
+.smallarticle {
+    height: auto;
+    padding: 30px;
+    margin: 0px;
+    /* margin-top: 50px; */
+}
+
+.smallarticle div {
+    display: flex;
+    gap: 20px;
+}
+
+.smallarticle button {
+    margin-bottom: 20px;
+}
+
+.smallarticle h3 {
+    font-weight: bolder;
+}
+
+.smallarticle h4 {
+    font-weight: normal;
+}
+
+.smallarticle section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+
+.plant_fiche {
+    padding: 0;
+    flex-direction: row;
+    max-height: 200px;
+    min-width: 400px;
+    max-width: 500px;
+    margin: 0px;
+}
+ 
+.plant_fiche section {
+    padding: 30px; 
+}
+
+.plant_fiche div {
+    display: flex;
+    gap: 20px;
+}
+
+.plant_fiche h3 {
+    font-weight: bolder;
+}
+
+.plant_fiche h4 {
+    font-weight: normal;
+}
+
+.plant_fiche section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.plant_fiche .pic {
+    margin-left: auto;
+}
